@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Los Angeles Bookkeeping & Accounting | Kate Cherkasova</title>
+  <meta name="description" content="Professional bookkeeping and accounting services for small businesses in the Los Angeles area and remote clients. Clean books, clear reporting, and reliable support." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo-block">
+        <div class="logo-circle">KC</div>
+        <div>
+          <h1 class="brand">Kate Cherkasova</h1>
+          <p class="tagline">Bookkeeping & Accounting</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#services">Services</a>
+        <a href="#process">How I Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Los Angeles & Remote</p>
+          <h2>Accurate, reliable bookkeeping for busy business owners.</h2>
+          <p class="hero-subtext">
+            I help small businesses, solo professionals, and creatives keep clean books,
+            stay compliant, and understand their numbers—without the overwhelm.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary">Book a free 20‑minute call</a>
+            <a href="#services" class="btn secondary">View services</a>
+          </div>
+          <p class="hero-note">
+            Specializing in QuickBooks Online, cloud bookkeeping, and practical reporting.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <h3>At a glance</h3>
+          <ul>
+            <li>Small business & solo professional focus</li>
+            <li>Los Angeles local or fully remote</li>
+            <li>Catch‑up & clean‑up projects welcome</li>
+            <li>Monthly reporting & workflow optimization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="section-intro">
+          Flexible packages for Los Angeles‑based and remote clients. We can start with a clean‑up and move into ongoing support.
+        </p>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Monthly Bookkeeping</h3>
+            <ul>
+              <li>Bank and credit card reconciliations</li>
+              <li>Categorization of income and expenses</li>
+              <li>Month‑end close & review</li>
+              <li>Basic management reports (P&amp;L, Balance Sheet)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Clean‑Up & Catch‑Up</h3>
+            <ul>
+              <li>Historical transaction clean‑up</li>
+              <li>Fixing mis‑categorized entries</li>
+              <li>Bringing books up to tax‑ready status</li>
+              <li>Best‑practice setup going forward</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Advisory & Systems</h3>
+            <ul>
+              <li>QuickBooks Online setup & optimization</li>
+              <li>Simple dashboards & reporting templates</li>
+              <li>Workflow and process improvement</li>
+              <li>Coordination with your CPA or tax pro</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt">
+      <div class="container">
+        <h2>How I work</h2>
+        <div class="steps-grid">
+          <div class="step">
+            <span class="step-number">1</span>
+            <h3>Intro call</h3>
+            <p>We discuss your business, current 
