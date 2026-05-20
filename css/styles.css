@@ -376,3 +376,22 @@ a:hover {
     padding: 0 1rem;
   }
 }
+
+.section.la-bg {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("../img/la-skyline.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.section.la-bg h2,
+.section.la-bg p,
+.section.la-bg h3,
+.section.la-bg .step-number {
+  color: #ffffff;
+}
