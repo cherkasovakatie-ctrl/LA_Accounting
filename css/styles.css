@@ -426,3 +426,9 @@ a:hover {
   background: rgba(15, 23, 42, 0.7);
   border-color: rgba(148, 163, 184, 0.5);
 }
+
+.section.la-bg .card {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: rgba(148, 163, 184, 0.6);
+  color: #e5e7eb;
+}
