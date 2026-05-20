@@ -162,20 +162,39 @@ a:hover {
 }
 
 .hero-panel {
-  background: var(--bg-alt);
-  border-radius: 0.75rem;
-  padding: 1.25rem;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  background: rgba(15, 23, 42, 0.85); /* dark, semi‑transparent */
+  border-radius: 0.9rem;
+  padding: 1.4rem 1.5rem;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  color: #e5e7eb;
 }
 
 .hero-panel h3 {
   margin-top: 0;
   margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #f9fafb;
 }
 
 .hero-panel ul {
   padding-left: 1.1rem;
   margin: 0;
+  list-style: disc;
+}
+
+.hero-panel li {
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+}
+
+.hero-panel,
+.hero-panel li {
+  font-weight: 400;
+  letter-spacing: 0.01em;
 }
 
 /* Sections */
@@ -394,4 +413,9 @@ a:hover {
 .section.la-bg h3,
 .section.la-bg .step-number {
   color: #ffffff;
+}
+
+.section.la-bg .step {
+  background: rgba(15, 23, 42, 0.7);
+  border-color: rgba(148, 163, 184, 0.5);
 }
