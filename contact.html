@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | LA Bookkeeping & Accounting</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo-block">
+        <div class="logo-circle">KC</div>
+        <div>
+          <h1 class="brand">Kate Cherkasova</h1>
+          <p class="tagline">Bookkeeping & Accounting</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+  <a href="services.html">Services</a>
+  <a href="index.html#process">How I Work</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="section-intro">
+            Tell me a bit about your business and what you need help with. I’ll follow up by email to schedule a brief call.
+          </p>
+          <form class="contact-form" action="https://formspree.io/f/mnjrpven" method="POST">
+            <input type="hidden" name="_next" value="https://cherkasovakatie-ctrl.github.io/LA_Accounting/thanks.html" />
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Location
+              <select name="location">
+                <option value="Los Angeles">Los Angeles area</option>
+                <option value="Remote">Remote (US‑based)</option>
+              </select>
+            </label>
+            <label>
+              What do you need help with?
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Submit</button>
+          </form>
+          <p class="contact-note">
+            Prefer to start by email? You can also reach me at:
+            <span class="email-text">cherkasovakatie@gmail.com</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Kate Cherkasova — Los Angeles Bookkeeping &amp; Accounting</p>
+    </div>
+  </footer>
+</body>
+</html>
